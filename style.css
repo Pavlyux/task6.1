@@ -6,9 +6,9 @@ html, body {
 
 .container {
     display: grid;
-    height: 800px;
+    height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr 1fr 1fr 150px;}
+    grid-template-rows: 10vh 1fr 1fr 1fr 20vh;}
 
 header {
     grid-row: 1/2;
@@ -81,14 +81,14 @@ footer {
     display: grid;
     background-color:rgb(230, 223, 223);
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap:1rem;
+    gap:2rem;
     align-content: center;
 }
 
 .section_footer {
     display: grid;
+    height: 13vh;
     align-content: center;
     justify-content: center;
-    height: 80px;
     background-color:whitesmoke;
     }
